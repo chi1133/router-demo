@@ -6,6 +6,7 @@ function install(_Vue) {
   Vue = _Vue
   Vue.mixin({
     beforeCreate() {
+      // debugger
       if (this.$options.router) {
         this._routerRoot = this
         this._router = this.$options.router

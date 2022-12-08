@@ -5,6 +5,7 @@ import install, { Vue } from './install'
 console.log('Vue: ', Vue)
 class VueRouter {
   constructor(options) {
+    // debugger
     let routes = options.routes || []
     // console.log('routers: ', routes)
     // debugger
